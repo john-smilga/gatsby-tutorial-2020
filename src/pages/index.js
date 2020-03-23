@@ -1,6 +1,7 @@
-// global css
+// global styles problem naming problem
 import React from "react"
 import Layout from "../components/layout"
+
 export default () => (
   <Layout>
     <h1 style={{ color: "green", textTransform: "uppercase" }}>
