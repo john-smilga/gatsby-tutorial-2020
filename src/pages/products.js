@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 import styles from "../components/products.module.css"
-console.log(styles)
 
 export default class products extends Component {
   render() {

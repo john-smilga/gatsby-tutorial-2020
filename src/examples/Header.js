@@ -1,9 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 const getData = graphql`
-  {
+  query FirstQuery () {
     site {
-      siteMetadata {
+      info: siteMetadata {
         person {
           age
           name
@@ -19,7 +19,7 @@ const getData = graphql`
 const Header = () => {
   const {
     site: {
-      siteMetadata: {
+      info: {
         title,
         person: { name },
       },
