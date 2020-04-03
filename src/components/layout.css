@@ -38,3 +38,16 @@ p {
 .small {
   width: 200px;
 }
+
+.single-product {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+}
+@media screen and (min-width: 768px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}
