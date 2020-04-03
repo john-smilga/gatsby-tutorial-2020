@@ -13,8 +13,6 @@ const ComponentName = ({
     },
   },
 }) => {
-  console.log(JSON.stringify(fixed))
-
   return (
     <Layout>
       <div style={{ textAlign: "center" }}>
